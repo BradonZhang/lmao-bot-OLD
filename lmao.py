@@ -1,3 +1,5 @@
+#NOTE: This is quite an old version of my code, and the bot does a lot more now.
+
 import discord
 import asyncio
 
@@ -162,4 +164,6 @@ async def on_message(message):
         elif ('lmao' in msg or 'lmfao' in msg) and toggle_ass: #generic ass substitution
             await replace_ass()
 
-client.run('NDU5NDMyODU0ODIxMTQyNTI5.Dg2Htw.aVPJBVaOHBEU8SjskX4plWhYiKg')
+#INSERT YOUR BOT'S TOKEN IN THE QUOTATION MARKS BELOW
+token = ""
+client.run(token)
